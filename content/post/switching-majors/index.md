@@ -12,7 +12,7 @@ categories = [
     "school",
     "life",]
 series = ["School"]
-aliases = ["Changing-Majors]
+aliases = ["Changing-Majors"]
 image = "something.jpg" // maybe a picture from a hike
 +++
 

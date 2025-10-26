@@ -12,7 +12,7 @@ categories = [
     "school",
     "typesetting",]
 series = ["School"]
-aliases = ["Changing-Majors"]
+aliases = ["Typst"]
 image = "setup.jpg" // gotta be one of those beautiful macos+zed+zathura screenshots, heck my GNOME config looks great too
 +++
 
