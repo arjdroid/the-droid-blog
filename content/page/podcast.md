@@ -1,13 +1,17 @@
 +++
-title = "Podcast"
-description = "A List Of My Favourite Podcasts"
+title = "Reading List"
+description = "[title]"
 date = "2021-10-15"
-aliases = ["podcast"]
+aliases = ["reading"]
 author = "Arjdroid"
 license = ""
-lastmod = "2024-05-26"
+lastmod = "2025-10-26"
 draft = "true"
 +++
+
+## My Favourite Books
+
+Science Fiction. Cixin Liu, Andy Weir (a fellow UCSD Revellian), Neal Stephenson, and many more.
 
 ## My Favourite Podcasts
 
