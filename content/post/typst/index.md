@@ -13,9 +13,10 @@ categories = [
     "typesetting",]
 series = ["School"]
 aliases = ["Typst"]
-image = "setup.jpg" // gotta be one of those beautiful macos+zed+zathura screenshots, heck my GNOME config looks great too
+image = "setup.jpg"
 +++
 
 For a couple years now I've been a vocal advocate of using the Typst typesetting system.
 
 // TODO: import points from emails I've sent out
+// gotta have one of those beautiful tiling_wm+macos+zed+zathura screenshots, heck my GNOME config looks great too, should check out some extensions for more beautiful screenshots.

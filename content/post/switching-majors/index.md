@@ -13,7 +13,7 @@ categories = [
     "life",]
 series = ["School"]
 aliases = ["Changing-Majors"]
-image = "something.jpg" // maybe a picture from a hike
+image = "something.jpg"
 +++
-
 // TODO: tidy up my typed-up notes on this matter sent out to friends
+// maybe a picture from a hike, Torrey Pines or smth
