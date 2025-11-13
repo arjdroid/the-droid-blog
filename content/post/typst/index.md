@@ -5,13 +5,16 @@ title = "Thoughts on Typst"
 date = "2025-09-30"
 description = "It's just better."
 tags = [
-    "school",
+    "technical",
+    "life",
     "typesetting",
 ]
 categories = [
-    "school",
-    "typesetting",]
-series = ["School"]
+    "technical",
+    "life",
+    "typesetting",
+]
+series = ["Typesetting"]
 aliases = ["Typst"]
 image = "setup.jpg"
 +++
@@ -51,4 +54,8 @@ Over my years of experience in converting others to such a typesetting system, I
 
 Still, as I progress on in the years, I know I will probably have to adapt to being productive with LaTeX too because that is what the _overwhelming_ majority of peers use, and would be expected of me if I were to go into research, etc. `pandoc` is pretty neat for converting between LaTeX and Typst, but its not perfect, and its algorithmically-produced typesettings are often un-intuitive, overly riddled with backslashes (Typst saved my pinky finger from that too)
 
-For personal use, and possibly even as a static site generator, I think I will prefer Typst.
+The LaTeX eco-system is far more mature, as so many tools have grown around it. Recently, after diving a bit into Haskell, I came across Knuth's idea of Literate Programming. This is fascinating, and I think that the modern ecosystem, especially with Jupyter Notebooks, and Julia, and all these other systems, it has caught on a lot. Haskell's is very much centered around LaTeX. Perhaps `typst` on its own, as the language evolves, will become more viable for Literate Programming. But right now, there are many reasons to remain proficient in LaTeX (I've fallen out of practice, though I should mention there is a great site https://texnique.xyz).
+
+If I were to put it in the most general way, my problem with LaTeX is not around the math typesetting, which it does best, but the slow compilation times, and the un-intuitive ways in which documents themselves (outside of the math) are typeset. However, I recognise this is probably a losing battle, much like `julia` against `python`, `MATLAB`, and `R`. Also, this is very much the rambling of someone (me) who has spent far too much time thinking about doing things, focusing on the tools, rather than doing the job itself.
+
+For now, I will stick with my beautiful, convenient Typst to turn in problem sets. For other stuff, I'll learn to live with LaTeX.
