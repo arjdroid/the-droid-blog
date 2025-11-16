@@ -3,7 +3,7 @@ draft = "false"
 author = "Arjdroid"
 title = "Thoughts on Tantalizing typst"
 date = "2025-11-16"
-description = "So close, yet so far away."
+description = "So close, yet so far away"
 tags = [
     "technical",
     "typesetting",

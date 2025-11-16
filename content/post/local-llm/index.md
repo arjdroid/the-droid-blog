@@ -1,13 +1,12 @@
 +++
 draft = "false"
 author = "Arjdroid"
-title = "Running a Local Large Language Model (AKA Local AI ChatBot) PART ONE"
+title = "Locally Running a Large Language Model"
 date = "2024-01-11"
-description = "This is blog post details my journey in setting up and running an (LLM) large-language-model on my very own computer in order to have my own alternative to ChatGPT"
+description = "Is anybody home?"
 tags = [
     "ai",
-    "llm",
-    "gpt",
+    "technical",
 ]
 categories = [
     "ai",
@@ -16,6 +15,8 @@ series = ["AI"]
 aliases = ["Local-LLM"]
 image = "llama2-on-mac.png"
 +++
+
+> This post is a little out of date, even for the time it was written (I'd been putting it off for a while!). There's a lot of cool stuff out there in self-hosting inference space right now (2025-11), I should write more about it sometime.
 
 ## Introduction
 

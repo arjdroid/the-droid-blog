@@ -3,7 +3,7 @@ draft = "true"
 author = "Arjdroid"
 title = "Learnings from my Second Hackathon"
 date = "2025-03-28"
-description = "What not to do"
+description = "What went wrong."
 tags = [
     "development",
 ]

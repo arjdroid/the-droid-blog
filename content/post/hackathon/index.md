@@ -3,7 +3,7 @@ draft = "false"
 author = "Arjdroid"
 title = "Participating in a 24 hour hackathon"
 date = "2023-01-23"
-description = "My experiences of participating in a 24 hour hackathon."
+description = "What went right."
 tags = [
     "programming",
     "hackathon",

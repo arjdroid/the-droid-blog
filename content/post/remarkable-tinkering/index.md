@@ -1,13 +1,12 @@
 +++
 draft = "false"
 author = "Arjdroid"
-title = "Encrypting the reMarkable 2 e-Paper Tablet"
+title = "Encrypting the reMarkable 2 (and other tweaks)"
 date = "2024-06-26"
-description = "How I went about setting up file encryption (and many other customisations) on the reMarkable 2."
+description = "Customisation is fun when e-ink meets linux"
 tags = [
     "remarkable",
     "hacking",
-    "security",
 ]
 categories = [
     "hacking",

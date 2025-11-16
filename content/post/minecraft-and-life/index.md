@@ -3,7 +3,7 @@ draft = "false"
 author = "Arjdroid"
 title = "Minecraft and a possible analogy for life"
 date = "2024-03-19"
-description = "Minecraft game mechanics and how they serve as an analogy for life."
+description = "Gaming staves off anxiety about the future"
 tags = [
     "non-technical",
     "rambling",
