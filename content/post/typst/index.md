@@ -1,9 +1,9 @@
 +++
-draft = "true"
+draft = "false"
 author = "Arjdroid"
 title = "Thoughts on Tantalizing typst"
 date = "2025-11-16"
-description = "A better way is so close, yet so far away."
+description = "So close, yet so far away."
 tags = [
     "technical",
     "typesetting",
@@ -21,13 +21,13 @@ For a few years now, I've been a vocal advocate of using the [typst](https://typ
 
 # The joys of typesetting
 
-If you haven't yet discovered the joys of typesetting, I must say that typst is a most delightful introduction. That is really the best way for me to describe it: joyous. For those that are in the know, head over to the next section.
+If you haven't yet discovered the joys of typesetting, I must say that typst is a most delightful introduction. That is really the best way for me to describe it: joyous.
 
-In high school and now college, I've made extensive use of typst to ensure a modicum of aesthetics in the presentation of my coursework. I could have done what my peers did, and use Docs, or god-forbid Word to complete the task. I probably would have procrastinated less. But using every time I type `typst` into my terminal, I feel a lot more enthusiastic about whatever I'm working on, whether it be an essay, a pset, or even a letter to a friend.
+In high school and now college, I've made extensive use of typst to ensure a modicum of aesthetics in the presentation of my coursework. I could have done what my peers did, and use Docs, or god-forbid Word to complete the task. I probably would have procrastinated less. But using every time I type `typst` into my terminal, I feel a lot more enthusiastic about whatever I'm working on, whether it be an essay, a problem set, or even a letter.
 
 Have you ever felt frustration at Microsoft or Google for the clunky interfaces and occasionally erratic behaviour of Word and Docs? The main advocates for typesetting (with LaTeX) focus on the flexibility with which one can show equations. However, there is also an argument for having a deterministic workflow.
 
-When you try to get the positioning of an image or table just right, only for it to be ruined because you wanted to change the phrasing of one of your sentences. Perhaps you're not as sufficiently plagued as I can be sometimes in an obsession over minutae, but you might still appreciate a faster way to type up your equations from coursework! 
+When you try to get the positioning of an image or table just right, only for it to be ruined because you wanted to change the phrasing of one of your sentences. Perhaps you're not as sufficiently plagued as I can be sometimes in an obsession over minutae, but you might still appreciate a faster way to type up your equations for coursework! 
 
 # Why typst
 
@@ -49,14 +49,22 @@ Initially, I did notice that typing math out in LaTeX was faster than typst, esp
 
 > It's really great to use in Obsidian with the plugin `wypst` as well, although I have a gripe that the plugin hasn't been updated in a _while_ and is behind on the latest typst features, maybe I should make a pull request.
 
-One thing I don't often see talked about, is that the error messages in LaTeX are so esoteric,it's not even comparable to typst.
+ the error messages in LaTeX are so esoteric, it's not even comparable to typst. I should note that typst sometimes makes breaking changes with new releases. I can't simply run `typst compile *.typ` on some of the first documents I composed with it as there are minor errors I must fix beforehand. However, the error messages are actually human-readable so I can make those changes pretty easily.
 
-I must concede that the LaTeX ecosystem is far more mature. With typst, there are breaking changes with new releases. I can't simply run `typst compile *.typ` on some of my first pieces of coursework I composed with it as there are minor errors I must fix beforehand. However, the error messages are actually human-readable so I can make those changes pretty easily.
+One thing I don't often see talked about, is that typst is a Turing-complete programming language. TeX macros are a beast of their own, but the learning process has escaped me, much like emacs. With typst, there is a lot of scripting capability that has made life easier. From simple calculations like `#calc.binom(2,1)`, to fully automated row-generation for repetitive calculations like in the title screenshot of this post. 
+
+One instance I can recall is how typst made my chemistry coursework a lot more pleasurable. I had to bring in a lot of tables and data, and using typst's csv import capabilities was infinitely less frustrating than dealing with pasting stuff into Docs or messing around with LaTeX packages for possibly days. In these regards, typst's official documentation, in combination with the increasing familiarity of SOTA LLMs with typst, we are in a new golden age of typesetting convenience.
+
+Overall, it's the little things that make typst so much nicer. The fact that the standard library is so feature-packed that the `code` mode has syntax highlighting for almost every language I've thrown at it thus far. The focus on good aesthetics satisfies my eye for detail to no end. The ease with which I can do so many things without having to download gigabytes of random packages. All of these add up, and make the solo typesetting experience a lot nicer.
+
+I must concede however that the LaTeX ecosystem is far more mature, and been subject to a lot more discourse by virtue of time. As I've been reading up on cool things like [literate haskell](https://wiki.haskell.org/index.php?title=Literate_programming), I appreciate Knuth's ideas a lot more, and the legacy of the ecosystem that has grown around it.
 
 # Trouble in paradise
 
-Despite all its benefits, I think that the future offered by typst is like a mirage in the desert. The promise of a better, more productive oasis exists, but the harsh LaTeX-pilled sands around it erode at the perfection. Journals are quite wary of it. The ArXiV has explicitly stated (as of the time of writing) that they won't accept papers in typst. Labs and research groups all around my campus and those across the globe work in Overleaf. 
+Thus, despite all its benefits I think that the future offered by typst is like a mirage in the desert. The promise of a better, more productive oasis exists, but the harsh LaTeX-pilled sands around it erode at the perfection. Journals are quite wary of it; the ArXiV has explicitly stated (as of the time of writing) that they won't accept papers in typst. Labs and research groups all around my campus and across the globe work in Overleaf. 
 
-The sparks of resistance are bright, but they alone cannot light up the darkness. I have peers, even TA's that enjoy using typst, but they too have succumbed to the pressure of network effects. In group work, `pandoc` can only take you so far, though I have observed that many these days don't bother to write LaTeX, preferring to feed their multi-modal LLM of choice with equations scrawled on their iPads.
+The sparks of resistance are bright, but they alone cannot light up the darkness. I have met handfuls of peers, even TA's that enjoy using typst, but they too have succumbed to the pressure of network effects. In group work, `pandoc` can only take you so far, and you don't want to get bogged down in constantly converting between typst and LaTeX.
 
 Much like julia and python, or c and rust, I don't think typst is going to follow in the footsteps of the Greek pantheon and kill off its precursor from before the turn of the millenium. I rue the day I must invoke `lualatex` once more, and count the seconds of my life slipping away as I await my slurry of backslashes and percentage-signs to produce less beautiful documents.
+
+> I should mention that [Stephen Xu](https://stuxf.dev) has produced some really nice typst presets that I personally use, including [adaptable-pset](https://typst.app/universe/package/adaptable-pset) and [basic-resume](https://typst.app/universe/package/basic-resume)
