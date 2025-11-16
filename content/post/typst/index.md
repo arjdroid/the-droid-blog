@@ -14,7 +14,7 @@ categories = [
 ]
 series = ["typesetting"]
 aliases = ["typst"]
-image = "setup.jpg"
+image = "setup.png"
 +++
 
 For a few years now, I've been a vocal advocate of using the [typst](https://typst.app) typesetting system, an open-source toolchain that revolves around the `typst` compiler.
