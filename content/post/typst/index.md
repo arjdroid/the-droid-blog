@@ -1,9 +1,9 @@
 +++
 draft = "true"
 author = "Arjdroid"
-title = "Thoughts on Typst"
+title = "Tantalizing Typst, some Thoughts"
 date = "2025-09-30"
-description = "It's just better."
+description = "A better way; so close, yet so far away."
 tags = [
     "technical",
     "life",
@@ -19,10 +19,14 @@ aliases = ["Typst"]
 image = "setup.jpg"
 +++
 
-For a couple years now I've been a vocal advocate of using the Typst typesetting system.
+For a years now, I've been a vocal advocate of using the Typst typesetting system.
+
+If you don't know, (typst)[https://typst.app] is an open-source typesetting system that revolves around the `typst` compiler.
+
+If you haven't yet discovered the joys of typesetting, I must say, Typst is a beautiful introduction. Have you ever felt frustration at Microsoft for the erratic behaviour of Word, when you try to get the positioning of an image or table just right, only for it to be ruined because you wanted to change the phrasing of one of your sentences, and you have to do it all over again. Perhaps you're not as sufficiently plagued as I can be sometimes in an obsession over minutae, but you might still appreciate a faster way to type up your equations from coursework! 
 
 It is such a joy to use Typst for all of my coursework. I have tried both, LaTeX and Typst extensively. In all manner of environments, from OverLeaf (and the excellent Typst Web App) to VSCode, to Zed / neovim and zathura (the only PDF viewer I have found which supports decent vim bindings, and live refresh while still maintaining your exact position on a page; as a bonus, its FOSS and a pretty healthy one at that).
-
+ 
 Typst makes me enjoy doing my coursework, because doing mathematics becomes even more fun. Seeing a beautifully typset document born re
 
 I have even taken an undergraduate freshman seminar at UCSD last quarter, _PHYS 87_, with Professor Benjamin Grinstein, it was all about LaTeX. I think the system has plenty of benefits over alternatives like Google Docs, and heaven-forbid Microsoft Word (I have a decade of experience in Cambridge International Primary+Secondary Education Information and Communications Technology forcing Word down my throat, I am well aware of its advantages and disadvantages -- /*emdash*/ Mail Merge anyone?).

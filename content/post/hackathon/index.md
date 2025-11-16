@@ -1,7 +1,7 @@
 +++
 draft = "false"
 author = "Arjdroid"
-title = "Participating in a 24 hour hackathon (Part 1)"
+title = "Participating in a 24 hour hackathon"
 date = "2023-01-23"
 description = "My experiences of participating in a 24 hour hackathon."
 tags = [
@@ -18,17 +18,15 @@ image = "coverphoto.jpg"
 +++
 ## Introduction
 
-A little over a month ago, I decided to participate in an upcoming hackathon. For those not in the know, a [hackathon](https://en.wikipedia.org/wiki/Hackathon), sometimes also called a codefest, is an event where people work in teams to rapidly develop a product within a set time limit. They can come in the form of a competition where the goal is for one team to win, or, when hosted by a company, to complete the implementation of a feature in their product.
+A little over a month ago, I decided to participate in my high school's yearly [hackathon](https://en.wikipedia.org/wiki/Hackathon). Living in a tech-oriented city like Bengaluru has its perks.
 
-They are usually 24 hours continuous, but some can span to two or three days.
+I haven't really had much formal programming experience, long-winded language tutorials that start from the ground up didn't agree with me. Instead I've mostly jumped around and played with things like linux and docker, making the occasional shell script or configurations to make things work how I wanted, as this blog has shown.
 
-I haven't really had much formal coding experience, never sticking to those long-winded language tutorials that start from the ground up. Instead I mostly just jumped around and played with things like linux and docker, making the occasional python or shell script, as this blog has shown.
-
-This was going to be the first time I did some 'real' programming; I was very excited.
+This was going to be the first time I wrote some 'real' code; I was very excited.
 
 ## Advice
 
-I don't want to bore you with the minute-by-minute details so let me just list some advice I wish I knew beforehand as well as advice I thought would be obvious to others but I guess it was not
+I don't want to bore you with the minute-by-minute details so let me just list some advice I wish I knew beforehand, as well as advice I thought would be obvious to others but apparently was not
 
 > * Preparation
 > * Equipment
@@ -72,7 +70,6 @@ Over the few weeks before the competition, I focused intensely on mini-projects 
 I must've made half a dozen private GitHub repos in that short period of time.
 
 > Practice well and ensure you're thorough with any and all technologies you might use in the hackathon. Mini-projects are great for this as you pick up the exact practical skills you need, without wasting time on the basics.
-
 
 ### Equipment
 

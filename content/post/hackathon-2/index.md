@@ -3,7 +3,7 @@ draft = "true"
 author = "Arjdroid"
 title = "Learnings from my Second Hackathon"
 date = "2025-03-28"
-description = "A Compilation of Things I've Learned from my Second Hackathon"
+description = "What not to do"
 tags = [
     "development",
 ]
@@ -14,25 +14,18 @@ aliases = ["hackathon-2"]
 image = "hackathon-2.jpg"
 +++
 
-As of now, I am cataloguing my experiences along different stages of the actual preparation and competition stages.
+Date Initiated: 2025-03-28
+Date Completed: 2025-11-15
 
-## 1 week to go
-I got my acceptance about a week ago, and since then, have been scrambling to get ready.
-You would think that it would be easier the second time around, given that I have that first experience, as well as a formal Programming Course (UCSD CSE 11) under my belt.
-You would be very much mistaken.
+This article ought to serve as a post-mortem of what went wrong with my second time attempting to participate in a Hackathon. Nowadays I try to be upfront about my shortcomings, because I can't bear the burden of maintaining a shiny public persona while feeling ashamed about my lived reality; I want to publicise my failures so that I can spend my energy finding and working on what I truly want to work on. This as opposed to dwelling on what 'people' might think if they knew how often I've failed at and quit things before moving onto something else that I hoped might better engage me. This realisation has come over time, as I've observed this pattern of behaviour in myself over and over again.
 
-This time around, I am planning to tackle the education / knowledge category, as opposed to transportation. I am once more building something to address a use case I have, that I have not seen good solutions for, but also don't know if other people want:
-A better eReader app, that focuses on having pages equivalent to those of a physical book, as that is what is prescribed for reading by some of my professors. Currently, all eReader apps and physical that I have tried always adjust 'pages' if any, to the screen size – perhaps rightfully so.
+Objectively, my partaking in ACM UCSD's DiamondHacks 2025 was a failure. I did not adequately plan, nor execute a vision. It is a complete juxtaposition to everything I did the first time around in [hackathon].
 
-Once more, I am daunted by the prospect of building UI. I will not repeat my previous mistake of making a quite terrible UI for my last Hackathon presentation, as I know the judges may not be so lenient.
-After exploring all the possible options, I landed back on Flutter, as it is comfortable to me as compared to all the gazillion JS frameworks, and offers native outputs for all relevant platforms. I know ReactNative also does this now apparently, but I don't want to learn the whole JS ecosystem from scratch, as vibe coding in it has been enough of a headache already.
-Sadly, I realised that most of my `flutter/dart` knowledge has either disappeared or become obsolete. Luckily for me, the same YouTuber that 2 years ago had an excellent 1 hour Flutter crash course for me, has just recently released a 5 hour long one that is even better, and will definitely up my UI game. I really appreciate this YouTuber, his channel is (Flutter Mapp)[https://youtube.com/@FlutterMapp].
+If I were to contrast it with Codefest 2023, here would be the `diff`:
+\- actually planning out the software's architecture
+\- 2 teammates
+\- actually learning the tech stack before the clock starts
 
-With regards to the rest of the tech stack, I have been getting really interested in Rust, as it is the cool new developer favourite. However, after trying for a couple of days to go through the Rust Programming Language Book and Rust By Example, I've realised its not something I can exactly speedrun through. So, even though using libraries and implementing logic in Rust as opposed to Dart would be _much_ nicer in the long run, in this short run, I can't really achieve it in the short run so I'll stick with Dart for the Hackathon and migrate to Rust in the future. 
+Looking at my thought process from a week before that Hackathon began (which can be audited on the git history of this blog post on my GitHub), I can see that I would have done well to listen to https://strangestloop.io/essays/things-that-arent-doing-the-thing, and still should right now!
 
-I've realised also, that as much as reMarkable and others try to claim they are better paper, there is something about paper that is just better.
-
-Even though I am typing this in Helix, I am doing all my Flutter stuff (also school `java` coursework) in VSCode, and as I get more familiar with its features, I can see more and more why so many professionals stick to it and can't jump to alternatives like Zed and NeoVim and Helix.
-
-> Sidenote:
-> I've realised that I have started to treat this blog more like how one might 'properly' use a `logseq` or obsidian graph knowledge base. This might be the proper starting point as I can store all my random notes about things like DNS Configurations, Flutter knowledge, etc. in a way that is much more easily accessbile to me and the world.
+I might be repeating the same mistake with trying to re-start `chalybeate`, which is not a surprise given that its the same project re-named, just that I now have a cool name that I hope doesn't get squatted on Rust's crates.io, and that might provide me an arbitrary deadline in line with the advice offered by https://structuredprocrastination.com
