@@ -45,7 +45,7 @@ On a somewhat related note, the relative success of LLMs at helping people pass 
 
 Similarly, Claude Code is a lot more pleasant than using the ChatGPT web interface because Claude is far better at planning the steps, and more efficient in responding to feedback to improve the quality of its code. I believe more restrictive and opinionated (in what passes as valid) programming languages – especially functional ones like Elm or Haskell – may be more ideal for programming with LLM assistance as compared to something like vanilla JS or Python. The stricter the type system, and the more informative the error messages, the better AI agents will be able to produce correct code.
 
-It's crazy how good Claude Code is, and so promising how much better it could be. This [talk]() by Steve Yegge and Gene Kim is really good, and paints a picture of what the next couple of months could look like in AI-driven development. Namely, the use of more and smaller AI agents specialising in singular tasks instead of the one big model taking care of everything as is the case right now.
+It's crazy how good Claude Code is, and so promising how much better it could be. This [talk](https://www.youtube.com/watch?v=7Dtu2bilcFs) by Steve Yegge and Gene Kim is really good, and paints a picture of what the next couple of months could look like in AI-driven development [3]. Namely, the use of more and smaller AI agents specialising in singular tasks instead of the one big model taking care of everything as is the case right now.
 
 For a while I wasn't "seeing the light" so to say with AI. I mistakenly thought it was just going to be another incremental improvement, and that people would use it as another crutch for cognitive decline. That last part isn't entirely incorrect, but my view vastly underestimated the *scale* and scope of the future impact of AI. Sure, there is a hype cycle that will follow the age-old trend of boom and bust. Still, it is not going to just "go away" as some people might wish. 
 
@@ -55,7 +55,11 @@ Things are going to change. And I would like to be on the right side of that, al
 
 > [2] One of my professors gave a really compelling pragmatic argument for avoiding dishonesty on coursework that stuck with me, it was something along the lines of this: Imagine you are setting out on the pursuit of physical fitness, one of your tasks is going to be running. Running is a pretty inefficient way to get from A to B, especially at longer distances like 5km. Using a car to go 5km would be faster, more convenient, and comfortable. Yet, if your goal is to get fitter, using a car utterly defeats that purpose: the desired outcome wasn't to get from A to B, it was to get the benefits that running 5km gives your body. The same applies to coursework.
 
-Also, some Recommended Reading:
+> [3] https://www.youtube.com/watch?v=7Dtu2bilcFs
+
+> This blog post [how-vibe-coding-killed-cursor](https://ischemist.com/writings/long-form/how-vibe-coding-killed-cursor) by [Anton Morgunov](https://ischemist.com) really provides concrete examples and advice for someone right now trying to write software with the assistance of LLMs.
+
+Also, some more recommended reading:
 - Thinking with Machines by Vasant Dhar
 - Vibe Coding by Gene Kim and Steve Yegge
 - Dune by Frank Herbert, "Thou shalt not make a machine to counterfeit a human mind."
